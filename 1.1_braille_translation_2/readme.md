@@ -57,4 +57,4 @@ Use verify [file] to test your solution and see how it does. When you are finish
 Solution
 ========
 
-This problem is pretty straight forward and easy. We just have to lookup the braille codes for the letters a-z and the system character codes then create a mapping for them. Looping through each character of the input, we append the correct mapping to a StringBuilder taking special care to account for spaces and upper case characters.
+This problem is pretty straight forward and easy. We just have to lookup the [braille codes](https://en.wikipedia.org/wiki/Braille) for the letters a-z and the [ASCII character codes](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html) then create a mapping for them. Looping through each character of the input, we append the correct mapping to a StringBuilder taking special care to account for spaces and upper case characters.
