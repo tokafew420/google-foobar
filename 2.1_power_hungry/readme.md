@@ -23,18 +23,18 @@ To provide a Java solution, edit solution.java
 Test cases
 ==========
 
-Inputs:
-    (int list) xs = [2, 0, 2, 2, 0]
+Inputs:  
+&nbsp;&nbsp;(int list) xs = [2, 0, 2, 2, 0]
 
-Output:
-    (string) "8"
+Output:  
+&nbsp;&nbsp;(string) "8"
 
-Inputs:
-    (int list) xs = [-2, -3, 4, -5]
+Inputs:  
+&nbsp;&nbsp;(int list) xs = [-2, -3, 4, -5]
 
-Output:
-    (string) "60"
-    
+Output:  
+&nbsp;&nbsp;(string) "60"
+
 Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
 
 Solution

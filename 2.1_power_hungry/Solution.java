@@ -2,11 +2,11 @@ import java.math.BigInteger;
 
 public class Solution {
     public static String answer(int[] xs) {
-        BigInteger totalPower = BigInteger.valueOf(1);   // Start out with 1
-        boolean hasPower = false;   // Indicates a non-zero result
-        boolean hasStabilizer = false;  // Indicates there's an addition malfunctioning panel to use as a stabilizer
-        int highMalfunction = 0;    // Malfunctioning panel with less drain
-        int lowMalfunction = 0;     // Malfunctioning panel with more drain
+        BigInteger totalPower = BigInteger.valueOf(1); // Start out with 1
+        boolean hasPower = false; // Indicates a non-zero result
+        boolean hasStabilizer = false; // Indicates there's an addition malfunctioning panel to use as a stabilizer
+        int highMalfunction = 0; // Malfunctioning panel with less drain
+        int lowMalfunction = 0; // Malfunctioning panel with more drain
         int len = xs.length;
 
         // In case the array has only one panel just return its value.
