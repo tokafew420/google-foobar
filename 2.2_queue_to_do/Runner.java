@@ -44,7 +44,6 @@ public class Runner {
 
         printResult(caseNum, 2000000000 == answer ? 0 : 1, time);
 
-
         // Test case 5
         // Process all prisoners (take sqrt of 2000000000)
         caseNum = 5;
